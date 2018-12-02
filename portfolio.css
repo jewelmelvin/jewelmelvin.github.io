@@ -1,0 +1,23 @@
+/* OC CIS 155 Web Development I
+   Style sheet for Jewel Melvin Portfolio Site 
+   Final Project
+   Author: Jewel Melvin
+   Date: 11/30/2018
+
+    File name: portfolio.css*/
+
+/* Table */
+table{
+align-self: auto;
+align-content: center;
+text-align: center;
+border-style: outset;
+border:solid;
+border-spacing: 5px;}
+
+table > td, thead, tbody, tr{ 
+width: 20%;
+padding: 2%;
+text-justify: auto;}
+
+table > p{ font-size: 2em;}

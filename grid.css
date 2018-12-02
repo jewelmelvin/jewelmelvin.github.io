@@ -1,0 +1,41 @@
+/* OC CIS 155 Web Development I
+   Style sheet for grid layout on portfolio page
+   Final Project
+   Author: Jewel Melvin
+   Date: 11/30/2018
+
+   File name: grid.css*/
+
+/*Grid-container general display*/
+.grid-container {
+    display: grid;
+    grid-gap: 5%;
+    padding: 5%;
+}
+
+/*Classes for each item that will be added*/
+.grid-container>div {
+    background-color: white;
+    text-align: center;
+    padding: 20% 0;
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+} 
+
+/*Flex container section*/
+div.row8{
+    display: flex;
+    flex-flow: row;
+    width: 36%;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    margin-right: -9%;
+    padding-right: 0;
+    background-color: transparent;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}

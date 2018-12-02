@@ -1,0 +1,201 @@
+/*
+   OC CIS 155 Web Development I
+   Style sheet for all pages
+   Final Project
+   Author: Jewel Melvin
+   Date: 11/30/2018
+   Filename:  sbstyles.css
+*/
+
+/* Head and HTML styles*/
+
+/* Display HTML5 structural elements as blocks */
+
+header,
+section,
+nav {
+    display: inline;
+}
+
+/*Both backgrounds*/
+
+/*Background gradient previewed in https://www.w3schools.com/colors/colors_gradient.asp and color picked second color in https://www.w3schools.com/colors/colors_picker.asp 
+
+Border background taken from https://www.shutterstock.com/editor/image/set-realistic-golden-chains-illustration-gold-1121278013
+        in filter: technicolor  opacity: 38% */
+
+html {
+    border-image-source: url(background-side-tile-website.png);
+    background: url("background-side-tile-website.png") left repeat-y fixed, url("background-side-tile-website.png") right repeat-y fixed, linear-gradient(to bottom, #ffffff 35%, #ffffe6 100%)no-repeat center center fixed;
+}
+
+/*centering html page and body contents*/
+
+html,
+body {
+    height: 100%;
+    align-content:center;
+    margin-left: 5%;
+}
+
+/* Body styles */
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 10%;
+}
+
+/* Site Navigation Styles */
+
+#siteNav {
+    width: 100%;
+}
+
+/*  Nav bar creation info available on https://www.w3schools.com/css/css_navbar.asp */
+
+ul,
+li {
+    margin-left:auto;
+    
+    
+}
+
+ul>li {
+    display: inline;
+    margin-left: 10%;
+   
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    border-bottom: 7px double hsla(26, 100%, 61%, 1);
+    border-top: 7px double hsla(26, 100%, 61%, 1);
+}
+
+li {
+    float: left;
+    margin: auto;
+
+}
+
+li .contact {
+    color: black;
+    display: block;
+    background-color: #fff;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li .contact:hover {
+    background-color: #fff;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffe6;
+}
+
+/* Header Styles */
+
+header {
+    
+   position: relative;
+   float: left;
+   width: 75%;
+}
+
+/*#head {
+   border-bottom: 7px double hsla(26, 100%, 61%, 1);
+}*/
+
+h1 {
+    font-family: 'Candal', Helvetica, sans-serif;
+    font-size: 2em;
+    text-shadow: 1.5px 1.5px #000;
+    text-decoration: none;
+    text-align: left;
+    color: hsla(0, 100%, 46%, 1)
+}
+
+#head img {
+    position: relative;
+    float: left;
+    
+}
+
+/* Main Section Styles */
+
+main {
+    /*float: left;*/
+    width: 75%;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 1.9em;
+    letter-spacing: .15em;
+    font-kerning: none;
+    text-shadow: 1px 1px #000;
+    color: hsla(226, 100%, 60%, 1);
+    text-align: center;
+}
+
+main img {
+    float: left;
+    border: none;
+    padding-right: 2%;
+}
+
+.left {
+    text-align: left;
+}
+
+p {
+    color: #000;
+}
+
+
+p a {
+    color: hsla(226, 100%, 60%, 1)
+}
+
+/* Figure and image for resume page */
+
+figure#nodownload {
+    position:relative;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    float: none;
+    clear: both;
+    border-radius: 2% 9px;
+    margin-left: 19.4%;
+   
+   
+}
+
+/* Footer*/
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding-top:6%;
+    clear:both;
+}
+
+
+
+/* Opens new window when link clicked */
+
+a{target="_blank"}
